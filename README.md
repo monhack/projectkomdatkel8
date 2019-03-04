@@ -1,17 +1,15 @@
 # Aplikasi Web "Source Graph"
 
-
 ## Sekilas Tentang
 
-Sourcegraph adalah alat pencarian kode untuk pengembang. Memungkinkan kita mencari dan menjelajahi semua kode organisasi kita di web, dengan integrasi ke dalam perangkat kita.
+**Sourcegraph** adalah alat pencarian kode untuk pengembang. Memungkinkan kita mencari dan menjelajahi semua kode organisasi kita di web, dengan integrasi ke dalam perangkat kita.
 
 Apa yang dilakukan Sourcegraph?
-Fitur utama Sourcegraph adalah:
-
-Pencarian kode: cepat, terkini, dan terukur, dengan dukungan regexp pada cabang apa pun atau melakukan tanpa penundaan pengindeksan (dan pencarian berbeda)
-Intelijen kode: lompat-ke-definisi, temukan referensi, dan fitur penjelajahan kode IDE-like yang cerdas lainnya di cabang, komit, atau PR / review kode
-Instalasi mandiri yang mudah dan aman (kode Anda tidak pernah menyentuh server kami)
-Integrasi dengan host kode, alat peninjau kode, editor, browser web, dll.
+Fitur utama **Sourcegraph** adalah:
+- Pencarian kode: cepat, terkini, dan terukur, dengan dukungan regexp pada cabang apa pun atau melakukan tanpa penundaan pengindeksan (dan pencarian berbeda)
+- Intelijen kode: lompat-ke-definisi, temukan referensi, dan fitur penjelajahan kode IDE-like yang cerdas lainnya di cabang, komit, atau PR / review kode
+- Instalasi mandiri yang mudah dan aman (kode Anda tidak pernah menyentuh server kami)
+- Integrasi dengan host kode, alat peninjau kode, editor, browser web, dll.
 
 
 ## Instalasi
@@ -51,12 +49,14 @@ Langkah instalasi dalam CLI.
   ```
   $ sudo docker run hello-world
   ```
-2. Install Source Graph
+3. Install Source Graph
   a. docker run 
-      --publish 7080:7080 --publish 2633:2633 --rm
-      --volume ~/.sourcegraph/config:/etc/sourcegraph 
-      --volume ~/.sourcegraph/data:/var/opt/sourcegraph 
-      sourcegraph/server:3.1.1
+  ```
+  --publish 7080:7080 --publish 2633:2633 --rm
+  --volume ~/.sourcegraph/config:/etc/sourcegraph 
+  --volume ~/.sourcegraph/data:/var/opt/sourcegraph 
+  sourcegraph/server:3.1.1
+  ```
 
 ## Konfigurasi (opsional)
 
@@ -101,4 +101,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 ## Referensi
 
-Cantumkan tiap sumber informasi yang anda pakai.
+1. [About Source Graph](https://docs.sourcegraph.com/user) - Source Graph
+2. [How to Install Source Graph](https://docs.sourcegraph.com/admin/install/docker) - Source Graph
+3. [About Docker](https://docs.docker.com/install/) - Docker
+4. [How to Install Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) - Docker
