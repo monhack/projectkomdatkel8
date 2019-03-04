@@ -21,6 +21,7 @@ Integrasi dengan host kode, alat peninjau kode, editor, browser web, dll.
 Prasyarat, apa saja yang harus diinstal sebelumnya.
   - Virtual Box
   - Ubuntu Server
+
 Langkah instalasi dalam CLI.
 1. Setup The Repository
   - Install packages to allow apt to use a repository over HTTPS:
@@ -32,16 +33,16 @@ Langkah instalasi dalam CLI.
       software-properties-common```
   - Add Docker’s official GPG key:
       ```$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -```
-  c. Set up the stable repository
-      $ sudo add-apt-repository \
+  - Set up the stable repository
+      ```$ sudo add-apt-repository \
       "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
       $(lsb_release -cs) \
-      stable"
+      stable"```
 2. Install Docker
-  a. Install the latest version of Docker CE and containerd
-      $ sudo apt-get install docker-ce docker-ce-cli containerd.io
-  b. Verify that Docker CE is installed correctly by running the hello-world image
-      $ sudo docker run hello-world
+  - Install the latest version of Docker CE and containerd
+  ```$ sudo apt-get install docker-ce docker-ce-cli containerd.io```
+  - Verify that Docker CE is installed correctly by running the hello-world image
+  ```$ sudo docker run hello-world```
 2. Install Source Graph
   a. docker run 
       --publish 7080:7080 --publish 2633:2633 --rm
