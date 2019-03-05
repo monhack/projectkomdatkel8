@@ -85,7 +85,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 
 ## Cara Pemakaian
-# Fitur pencarian kode
+### Fitur pencarian kode
 Contoh pemakaian:
 Buka sourcegraph.com dan sign in terlebih dahulu. Akan langsung dialihkan ke sourcegraph.com/search.
 ![Fitur search pada Sourcegraph](etc/image2.png)
@@ -94,7 +94,7 @@ Misal akan mencari **repogroup:sample "not found"** maka akan keluar hasil penca
 
 Untuk menggunakan repository milik tim sendiri saat menggunakan fitur pencarian, harap menginstal terlebih dahulu seperti diatas.
 Baca [dokumentasi pencarian kode](https://docs.sourcegraph.com/user/search) untuk informasi lebih lanjut.
-# Fitur intelijen kode
+### Fitur intelijen kode
 Sourcegraph menyediakan intelijen kode pada:
 1. File kode pada UI web Sourcegraph
 ![Intelijen kode](etc/image4.png)
