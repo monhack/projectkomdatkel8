@@ -117,7 +117,7 @@ Baca [dokumentasi intelijen kode](https://docs.sourcegraph.com/user/code_intelli
 
 ## Pembahasan
 
-Aplikasi seperti Github tidak memiliki fitur search untuk mencari kode tertentu, hanya fitur search file, sehingga developer mungkin akan membutuhkan banyak waktu hanya untuk mencari kode tersebut. Sesuai dengan tujuan utama dibuatnya aplikasi sourcegraph -- alat pencarian kode yang memungkinkan para pengembang mencari dan menjelajahi semua kode organisasi di web -- sourcegraph juga dapat menghindari pencarian manual tersebut yang membutuhkan banyak waktu.
+Aplikasi seperti Github tidak memiliki fitur search untuk mencari kode tertentu, hanya fitur search file, sehingga developer mungkin akan membutuhkan banyak waktu hanya untuk mencari kode tersebut. Sesuai dengan tujuan utama dibuatnya aplikasi sourcegraph &mdash; alat pencarian kode yang memungkinkan para pengembang mencari dan menjelajahi semua kode organisasi di web &mdash; sourcegraph juga dapat menghindari pencarian manual tersebut yang membutuhkan banyak waktu.
 
 
 
