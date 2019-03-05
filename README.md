@@ -1,14 +1,14 @@
-# Aplikasi Web "Source Graph"
+# Aplikasi Web "Sourcegraph"
 
-## Sekilas Tentang
+## Sekilas Tentang Sourcegraph
 
-**Sourcegraph** adalah alat pencarian kode untuk pengembang. Memungkinkan kita mencari dan menjelajahi semua kode organisasi kita di web, dengan integrasi ke dalam perangkat kita.
+**Sourcegraph** adalah alat pencarian kode yang memungkinkan para pengembang mencari dan menjelajahi semua kode organisasi di web dengan integrasi ke dalam perangkat para pengembangnya.
 
 Apa yang dilakukan Sourcegraph?
 Fitur utama **Sourcegraph** adalah:
 - Pencarian kode: cepat, terkini, dan terukur, dengan dukungan regexp pada cabang apa pun atau melakukan tanpa penundaan pengindeksan (dan pencarian berbeda)
 - Intelijen kode: lompat-ke-definisi, temukan referensi, dan fitur penjelajahan kode IDE-like yang cerdas lainnya di cabang, komit, atau PR / review kode
-- Instalasi mandiri yang mudah dan aman (kode Anda tidak pernah menyentuh server kami)
+- Instalasi mandiri yang mudah dan aman (kode Anda tidak pernah menyentuh server sourcegraph)
 - Integrasi dengan host kode, alat peninjau kode, editor, browser web, dll.
 
 
@@ -57,7 +57,7 @@ Langkah instalasi dalam CLI.
   --volume ~/.sourcegraph/data:/var/opt/sourcegraph 
   sourcegraph/server:3.1.1
   ```
-
+<!---
 ## Konfigurasi (opsional)
 
 Setting server tambahan yang diperlukan untuk meningkatkan fungsi dan kinerja aplikasi, misalnya:
@@ -82,9 +82,12 @@ Setting tambahan untuk maintenance secara periodik, misalnya:
 ## Otomatisasi (opsional)
 
 Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
+-->
+
 
 
 ## Cara Pemakaian
+
 ### Fitur pencarian kode
 Contoh pemakaian:
 
@@ -102,7 +105,7 @@ Sourcegraph menyediakan intelijen kode pada:
 1. File kode pada UI web Sourcegraph
 ![Intelijen kode](etc/image4.png)
 
-2. Diffs pada alat review kode, menggunakan [integrasi](https://docs.sourcegraph.com/integration)
+2. Diffs pada alat peninjau kode, menggunakan [integrasi](https://docs.sourcegraph.com/integration)
 ![Intelijen kode](etc/image5.png)
 
 3. File kode pada host kode milik sendiri, menggunakan [integrasi](https://docs.sourcegraph.com/integration)
@@ -111,12 +114,11 @@ Sourcegraph menyediakan intelijen kode pada:
 Baca [dokumentasi intelijen kode](https://docs.sourcegraph.com/user/code_intelligence) untuk informasi lebih lanjut.
 
 
+
 ## Pembahasan
 
-- Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
+Aplikasi seperti Github tidak memiliki fitur search untuk mencari kode tertentu, hanya fitur search file, sehingga developer mungkin akan membutuhkan banyak waktu hanya untuk mencari kode tersebut. Sesuai dengan tujuan utama dibuatnya aplikasi sourcegraph -- alat pencarian kode yang memungkinkan para pengembang mencari dan menjelajahi semua kode organisasi di web -- sourcegraph dapat juga dapat menghindari pencarian manual tersebut yang membutuhkan banyak waktu.
+
 
 
 ## Referensi
