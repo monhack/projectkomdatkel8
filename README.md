@@ -1,5 +1,8 @@
 <h1 align="center"><a href="https://sourcegraph.com"><img alt="Sourcegraph" src="https://storage.googleapis.com/sourcegraph-assets/sourcegraph-logo.png" height="32px" /></a></h1>
 
+[Sekilas Tentang Sourcegraph](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
+
 # Aplikasi Web "Sourcegraph"
 
 ## Sekilas Tentang Sourcegraph
@@ -64,7 +67,7 @@ Langkah instalasi dalam CLI.
 ## Konfigurasi
 [`^ kembali ke atas ^`](#)
 
-## Menambahkan External Service
+### Menambahkan External Service
 
  - Kunjungi Site Admin
  
