@@ -56,8 +56,8 @@ Langkah instalasi dalam CLI.
   $ sudo docker run hello-world
   ```
 3. Install Source Graph
-  a. docker run 
   ```
+  docker run 
   --publish 7080:7080 --publish 2633:2633 --rm
   --volume ~/.sourcegraph/config:/etc/sourcegraph 
   --volume ~/.sourcegraph/data:/var/opt/sourcegraph 
