@@ -68,16 +68,24 @@ Langkah instalasi dalam CLI.
   misal.Github
   Display Name : Github
   Kind : GitHub
+  ![AddExtService](etc/addextservice.png.jpg)
 
  - Kunjungi Menu Setting pada Akun Github yang ingin dihubungkan
  - Pilih Developer Settings
+  ![DevSetting](etc/devsetting.jpg)
+  
  - Pilih Personal Access Token
  - Generate New Token
+  ![GenerateToken](etc/generatenewtoken.jpg)
  - Isi Token Desciption, misal : Sourcegraph
+  ![AddExtService](etc/tokendesc.jpg)
  - Klik Generate Token
  - Copy dan paste token yang sudah digenerate ke sourcegraph
+  ![AddExtService](etc/Inkedcopytoke.jpg)
+  ![AddExtService](etc/Inkedpasteto.jpg)
  - Klik Setting pada Salah satu External Service
  - Pilih Projek apa saja yang boleh di-search oleh Sourcegraph
+  ![AddExtService](etc/enableproject.jpg)
 
 <!---
 Setting server tambahan yang diperlukan untuk meningkatkan fungsi dan kinerja aplikasi, misalnya:
