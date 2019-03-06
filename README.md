@@ -1,7 +1,9 @@
 <h1 align="center"><a href="https://sourcegraph.com"><img alt="Sourcegraph" src="https://storage.googleapis.com/sourcegraph-assets/sourcegraph-logo.png"></a></h1>
 
+<h3 align="center">
 [Sekilas Tentang](#sekilas-tentang-sourcegraph) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
+</h3>
 
 # Aplikasi Web "Sourcegraph"
 
