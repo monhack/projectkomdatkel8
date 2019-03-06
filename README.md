@@ -60,14 +60,16 @@ Langkah instalasi dalam CLI.
 
 ## Konfigurasi (opsional)
 
-Menambahkan External Service
+# Menambahkan External Service
 
-Memilih External Service yang ingin ditambahkan
-misal.Github
-Display Name : Github
-Kind : GitHub
+ - Kunjungi Site Admin
+ 
+ - Memilih External Service yang ingin ditambahkan
+  misal.Github
+  Display Name : Github
+  Kind : GitHub
 
-Kunjungi Menu Setting pada Akun Github yang ingin dihubungkan
+ - Kunjungi Menu Setting pada Akun Github yang ingin dihubungkan
  - Pilih Developer Settings
  - Pilih Personal Access Token
  - Generate New Token
