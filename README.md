@@ -61,9 +61,10 @@ Langkah instalasi dalam CLI.
   sourcegraph/server:3.1.1
   ```
 
-## Konfigurasi (opsional)
+## Konfigurasi
+[`^ kembali ke atas ^`](#)
 
-# Menambahkan External Service
+## Menambahkan External Service
 
  - Kunjungi Site Admin
  
@@ -102,7 +103,8 @@ Plugin untuk fungsi tambahan
 - dll
 
 
-##  Maintenance (opsional)
+##  Maintenance
+[`^ kembali ke atas ^`](#)
 
 Setting tambahan untuk maintenance secara periodik, misalnya:
 - buat backup database tiap pekan
@@ -110,7 +112,8 @@ Setting tambahan untuk maintenance secara periodik, misalnya:
 - dll
 
 
-## Otomatisasi (opsional)
+## Otomatisasi
+[`^ kembali ke atas ^`](#)
 
 Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 -->
@@ -118,6 +121,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 
 ## Cara Pemakaian
+[`^ kembali ke atas ^`](#)
 
 ### Fitur pencarian kode
 Contoh pemakaian:
@@ -147,12 +151,14 @@ Baca [dokumentasi intelijen kode](https://docs.sourcegraph.com/user/code_intelli
 
 
 ## Pembahasan
+[`^ kembali ke atas ^`](#)
 
 Aplikasi seperti Github tidak memiliki fitur search untuk mencari kode tertentu, hanya fitur search file, sehingga developer mungkin akan membutuhkan banyak waktu hanya untuk mencari kode tersebut. Sesuai dengan tujuan utama dibuatnya aplikasi sourcegraph &mdash; alat pencarian kode yang memungkinkan para pengembang mencari dan menjelajahi semua kode organisasi di web &mdash; sourcegraph juga dapat menghindari pencarian manual tersebut yang membutuhkan banyak waktu.
 
 
 
 ## Referensi
+[`^ kembali ke atas ^`](#)
 
 1. [About Source Graph](https://docs.sourcegraph.com/user) - Source Graph
 2. [How to Install Source Graph](https://docs.sourcegraph.com/admin/install/docker) - Source Graph
