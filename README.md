@@ -57,9 +57,27 @@ Langkah instalasi dalam CLI.
   --volume ~/.sourcegraph/data:/var/opt/sourcegraph 
   sourcegraph/server:3.1.1
   ```
-<!---
+
 ## Konfigurasi (opsional)
 
+Menambahkan External Service
+
+Memilih External Service yang ingin ditambahkan
+misal.Github
+Display Name : Github
+Kind : GitHub
+
+Kunjungi Menu Setting pada Akun Github yang ingin dihubungkan
+-Pilih Developer Settings
+-Pilih Personal Access Token
+-Generate New Token
+-Isi Token Desciption, misal : Sourcegraph
+-Klik Generate Token
+-Copy dan paste token yang sudah digenerate ke sourcegraph
+-Klik Setting pada Salah satu External Service
+-Pilih Projek apa saja yang boleh di-search oleh Sourcegraph
+
+<!---
 Setting server tambahan yang diperlukan untuk meningkatkan fungsi dan kinerja aplikasi, misalnya:
 - batas upload file
 - batas memori
