@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjWm6v1iO3gAhXXbCsKHXcKAzEQjRx6BAgBEAU&url=https%3A%2F%2Fgithub.com%2Fsourcegraph%2Fsourcegraph&psig=AOvVaw0laLg0Bbfm78aRu87egQ1Q&ust=1551946366208170"></h1>
+<h1 align="center"><a href="https://sourcegraph.com"><img alt="Sourcegraph" src="https://storage.googleapis.com/sourcegraph-assets/sourcegraph-logo.png" height="32px" /></a></h1>
 
 # Aplikasi Web "Sourcegraph"
 
@@ -15,6 +15,7 @@ Fitur utama **Sourcegraph** adalah:
 
 
 ## Instalasi
+[`^ kembali ke atas ^`](#)
 
 Prasyarat, apa saja yang harus diinstal sebelumnya.
   - Virtual Box
